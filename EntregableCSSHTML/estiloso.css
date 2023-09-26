@@ -1,0 +1,88 @@
+body{
+    background-image: url("./img/Fondo.jpg");
+    background-size:100%;
+    font-family: Montserrat; 
+}
+header{
+    display: flex;  
+}
+#Nav{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+header ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+header ul li{
+    list-style-type: none;
+    text-transform: uppercase;
+    font-size: x-large;
+}
+header ul li a:link{
+    color: #F0F0F0;
+    text-decoration: none;
+}
+header ul li a:visited{
+    color: #F0F0F0;
+    text-decoration: none;
+}
+header ul li a:hover{
+    color: #FC4136;
+}
+header section img{
+    margin-left: 50%;
+    width: 90px;
+    border-radius: 50%;
+}
+#principal{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+    align-items: center;
+}
+body section section p{
+    text-align: center;
+    font-size: x-large;
+    color: #F0F0F0;
+    letter-spacing:normal;
+    line-height: 150%;
+}
+body section section img{
+    width: 500px;
+}
+body section section button{
+    margin: auto;
+}
+button{
+    padding: 1em;
+    background: #1B50AF;
+    color: #F0F0F0;
+    font-size: x-large;
+    border: 0;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #F6C853;
+    color: #FC4136;
+}
+body section section button img{
+    margin: auto;
+    width: 25px;
+    margin-left: 5px;
+}
+body > section > section > form{
+    
+    color: #F0F0F0;
+    font-size: x-large;
+    text-align: center;
+}
+body > section > section > form > input{
+    width: 80%;
+    font-size: x-large;
+    text-align: center;
+}
