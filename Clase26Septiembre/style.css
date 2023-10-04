@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: antiquewhite;
+}
+p{
+    font-family: Montserrat;
+    font-size: xx-large;
+    text-transform: uppercase;
+}
+.main{
+    margin-top: 20%;
+    background-color: aqua;
+    border-radius: 50%;
+}
+.main:hover{
+    background-color: black;
+    color:aliceblue;
+    pointer-events: painted;
+}

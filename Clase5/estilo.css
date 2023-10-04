@@ -1,0 +1,39 @@
+body
+{
+    background-color: #19283D;
+    font-family: Montserrat;
+    color: #E5CDE3;
+}
+
+.header{
+    display: flex;
+}
+
+li{
+    display: inline;
+}
+.logo{
+    flex: 1;
+}
+.nav{
+    flex:3;
+    font-family: Montserrat;
+    font-size: 20px;
+}
+.botonesnav{
+    margin-left: 5%;
+    margin-top: 3%;
+    flex: 1;
+}
+.logodedoom{
+    margin-top: 10%;
+    margin-left: 9%;
+    width: auto;
+    height: 50px;
+}
+.LaFoto{
+border-radius: 50%;
+}
+.main{
+    display: flex;
+}
